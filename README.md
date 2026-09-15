@@ -1,7 +1,7 @@
 # Cloudflare 单文件终端
 
 Cloudflare Pages/Workers 单文件终端项目。
-整站只有一个 `public/_worker.js`，包含代理协议实现、Web 管理面板、订阅生成和 API，配置存 KV，改完立即生效、无需重新部署。
+整站只有一个 `XIAOKEAI/public/_worker.js`，包含代理协议实现、Web 管理面板、订阅生成和 API，配置存 KV，改完立即生效、无需重新部署。
 
 
 
