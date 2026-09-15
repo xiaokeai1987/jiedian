@@ -21,7 +21,7 @@ const BUILTIN_PREFERRED = [
   'cf.090227.xyz',
   'bestcf.top',
   'cloudflare.182682.xyz',
-  'cf.zhetengsha.eu.org',
+  'saas.sin.fan',
 ];
 
 // ============================ 基础工具 ============================
@@ -584,7 +584,7 @@ async function handleSub(request, url, env, cfg) {
   const target = url.searchParams.get('target')
     || (ua.includes('clash') || ua.includes('stash') || ua.includes('mihomo') ? 'clash' : 'base64');
 
-  const headers = { 'content-type': 'text/plain; charset=utf-8', 'x-powered-by': 'shumajiedu | NEBULA-DECODE' };
+  const headers = { 'content-type': 'text/plain; charset=utf-8', 'x-powered-by': 'xiaokeai | XIAOKEAI' };
   if (target === 'clash') {
     headers['content-type'] = 'text/yaml; charset=utf-8';
     headers['content-disposition'] = 'attachment; filename="nebula-decode.yaml"';
