@@ -680,7 +680,7 @@ async function renderPanel(url, request, cfg, env) {
   const html = '<!DOCTYPE html>' +
 '<html lang="zh-CN"><head><meta charset="utf-8">' +
 '<meta name="viewport" content="width=device-width,initial-scale=1">' +
-'<title>NEBULA-DECODE 终端</title><style>' +
+'<title>XIAOKEAI 终端</title><style>' +
 '*{box-sizing:border-box;margin:0;padding:0}' +
 'body{background:#0a0e14;color:#c9d1d9;font-family:ui-monospace,Consolas,Menlo,monospace;font-size:14px;line-height:1.6;padding:24px}' +
 '.wrap{max-width:860px;margin:0 auto}' +
@@ -711,7 +711,7 @@ async function renderPanel(url, request, cfg, env) {
 '.footer{color:#4a5568;font-size:12px;text-align:center;margin:18px 0 4px}' +
 '.footer a{color:#58e6d9;text-decoration:none}' +
 '</style></head><body><div class="wrap">' +
-'<h1>NEBULA-DECODE <span class="v">v1.0.0-probe</span><span class="brand">小可爱出品</span></h1>' +
+'<h1>XIAOKEAI <span class="v">v1.0.0-probe</span><span class="brand">小可爱出品</span></h1>' +
 '<div class="sub">Cloudflare Pages 单文件终端 &nbsp;|&nbsp; 节点机房: <b style="color:#58e6d9">' + colo + '</b> &nbsp;|&nbsp; 入口路径: <b style="color:#58e6d9">' + base + '</b> &nbsp;|&nbsp; ' + protoBadges + '</div>';
 
   const body = html +
@@ -756,7 +756,7 @@ async function renderPanel(url, request, cfg, env) {
 '</div>' +
 '<div class="footer">✦ 由 <b style="color:#f0883e">小可爱</b> 出品 · <a href="https://github.com/xiaokeai1987/jiedian" target="_blank">GitHub 开源项目</a> ✦</div>' +
 '<script>var BASE="' + base + '/";</script>' + PANEL_TAIL;
-  return new Response(body, { headers: { 'content-type': 'text/html; charset=utf-8', 'x-powered-by': 'shumajiedu | NEBULA-DECODE' } });
+  return new Response(body, { headers: { 'content-type': 'text/html; charset=utf-8', 'x-powered-by': 'shumajiedu | XIAOKEAI' } });
 }
 
 const PANEL_TAIL = '<script>' +
